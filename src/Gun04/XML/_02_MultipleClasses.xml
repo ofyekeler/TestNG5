@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suit">
+
+    <test name="test1">
+        <classes>
+            <class name="Gun04._01_Intro"></class>
+            <class name="Gun04._02_Intro"></class>   <!--  iki class ı aynı anda çalıştırmış olduk -->
+        </classes>
+    </test>
+    
+</suite>

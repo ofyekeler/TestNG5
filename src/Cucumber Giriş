@@ -1,0 +1,49 @@
+Product Owner -> Birimlerin müdürü
+
+Takım Lideri
+Scrum Master
+Business Analist(iş analisti)
+Developerler
+Testerlar
+
+Proje Gelir
+Müşteri -> BA ya anlatır.
+BA -> Dev lere anlatır.
+Developer yazılıma başlar.
+Dev Unit test oluşturur.
+Testera gider. DEV kontrol ediyor,
+   (bu testin içind emüşteri gereksinimleri yok)
+  problemler : müşterinin istediği gibi olmadı
+               userfriend li olmadı
+
+testine göre bire
+Test Driven Development -> TDD
+
+
+------> yöntemler değiştirildi. Agile Yöntemi
+Müşteri
+BA
+Tester -> test case leri yazmaya başladı
+Dev e dedileri, senin yazdığın yazılım
+    tester ın caselerine göre çalışmalı.
+
+
+son kullanıcınn davranışına göre yöntem olduğu için
+Behaviour Driven Development -> BDD
+
+Testera dedilerki-> testleri öyle yazki
+müşteri bakınca da anlasın
+BA bakınca da anlasın
+Dev bakınca da anlasın
+
+Cucumber BDD test Organizatörü
+
+Senaryo: Login Kontrolü
+Siteye git
+Login bilgilerini gönder
+Sonra girildiğini kontrol et.
+
+“ Agile methodolojisi ile iş yapıyorsanız ve uygulama testi için
+BDD kullanmıyorsanız kendinizle çelişiyorsunuzdur. ”
+
+Bize bu şekilde senaryo yazma imkanı veren TOOL CUCUMBER dır.

@@ -1,0 +1,28 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MySuit"> <!-- parallel="tests" thread-count="2" -->
+
+
+    <test name="TestChrome">
+
+        <parameter name="browserTipi" value="chrome"></parameter>
+
+        <classes>
+            <class name="Projelerim.Proje05.Proje05">
+
+
+            </class>
+        </classes>
+    </test>
+
+<!--    <test name="TestFirefox">-->
+<!--        <parameter name="browserTipi" value="firefox"></parameter>-->
+
+<!--        <classes>-->
+<!--            <class name="Projelerim.Proje05.Proje05">-->
+
+
+<!--            </class>-->
+<!--        </classes>-->
+<!--    </test>-->
+
+</suite>

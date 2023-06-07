@@ -1,0 +1,26 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MySuit" parallel="tests" thread-count="2">
+    <!-- yukarıya "MySuit"in yanına paralel test komutu girdim -->
+
+<!-- browser ları aynı anda çalıştırma -->
+    <parameter name="aranacakKelime" value="mac"/>
+
+    <test name="myTest1">
+        <parameter name="browserTipi" value="firefox"/>
+
+        <classes>
+            <class name="Gun05._01_SearchFunctionality"></class>
+        </classes>
+
+    </test>
+
+    <test name="myTest2">
+        <parameter name="browserTipi" value="chrome"/>
+
+        <classes>
+            <class name="Gun05._01_SearchFunctionality"></class>
+        </classes>
+
+    </test>
+
+</suite>

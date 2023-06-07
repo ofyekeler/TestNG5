@@ -1,0 +1,38 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+
+
+    <test name="Test">
+
+        <parameter name="eMail" value="grup05@gmail.com"></parameter>
+        <parameter name="pass" value="grup05"></parameter>
+        <parameter name="yName" value="Grup05"></parameter>
+        <parameter name="mess" value="proje 4 TestNG"></parameter>
+        <parameter name="recName" value="Bilal"></parameter>
+
+
+        <classes>
+            <class name="Projelerim.Proje04.Proje04">
+                <methods>
+                    <exclude name="Data_Provider_Login"></exclude>
+                    <exclude name="ParameterSearchTest"></exclude>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+    <test name="ParameterSearchTest">
+        <parameter name="searchWord" value="Adobe Photoshop CS4"></parameter>
+        <parameter name="eMail" value="grup05@gmail.com"></parameter>
+        <parameter name="pass" value="grup05"></parameter>
+        <classes>
+            <class name="Projelerim.Proje04.Proje04">
+                <methods>
+                    <include name="Login_Test"></include>
+                    <include name="ParameterSearchTest"></include>
+                </methods>
+            </class>
+        </classes>
+    </test>
+
+</suite>

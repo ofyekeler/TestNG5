@@ -1,0 +1,10 @@
+file -> settings -> plugins -> marketplace -> "testng xml" -> install
+
+eklentinin eklendiğini teyit etmek için bir class a sağ click yap ve aşağıda
+"Creat TestNG XML" i gör
+
+Birden fazla class ı aynı anta test edebilme yöntemi :
+
+Class -> sağ click -> Creat TestNG XML -> OK
+Proje -> sağ click -> Reload From Disk
+oluşam XML dıosyayı ilgili klasöre at -> içine gir -> ctrl+Alt+L (Düzgün görünsün diye)

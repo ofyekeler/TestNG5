@@ -1,0 +1,27 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="MySuit" parallel="tests" thread-count="2">
+
+
+    <test name="TestChrome">
+
+        <parameter name="browserTipi" value="chrome"/>
+
+        <classes>
+            <class name="Projelerim.Proje05Test.Proje05">
+
+            </class>
+        </classes>
+    </test>
+
+    <test name="TestEdge">
+        <parameter name="browserTipi" value="edge"/>
+
+        <classes>
+            <class name="Projelerim.Proje05Test.Proje05">
+
+
+            </class>
+        </classes>
+    </test>
+
+</suite>

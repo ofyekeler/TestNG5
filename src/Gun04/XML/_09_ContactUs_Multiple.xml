@@ -1,0 +1,20 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suit">
+
+    <test name="test1">
+        <parameter name="mesaj" value="merhaba dünya yeni test dünyazı"></parameter>
+
+        <classes>
+            <class name="Gun04._04_ContactUs"></class>
+        </classes>
+    </test>
+
+    <test name="test2">
+        <parameter name="mesaj" value="Açılın yeni testerları geliyor"></parameter>
+
+        <classes>
+            <class name="Gun04._04_ContactUs"></class>
+        </classes>
+    </test>
+
+</suite>
